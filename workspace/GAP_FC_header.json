@@ -1,0 +1,109 @@
+{
+  "rom_name": "GAP_FC_header",
+  "spec": "ROM_v4.md §4.1",
+  "addressing": "byte",
+  "entry_size_bytes": 19,
+  "total_bytes": 19,
+  "num_layers": 1,
+  "layers": [
+    {
+      "layer_index": 0,
+      "name": "gap_fc",
+      "byte_offset": 0,
+      "raw_hex": "ffff03000000000e0040000808000000b15b00",
+      "fields": {
+        "next_layer_base_addr": {
+          "offset": 0,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0xFFFF",
+          "value": 65535
+        },
+        "layer_type": {
+          "offset": 2,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x03",
+          "value": 3
+        },
+        "weight_base": {
+          "offset": 3,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0x0000",
+          "value": 0
+        },
+        "bias_base": {
+          "offset": 5,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0x0000",
+          "value": 0
+        },
+        "C_out": {
+          "offset": 7,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0x000E",
+          "value": 14
+        },
+        "C_in": {
+          "offset": 9,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0x0040",
+          "value": 64
+        },
+        "H": {
+          "offset": 11,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x08",
+          "value": 8
+        },
+        "W": {
+          "offset": 12,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x08",
+          "value": 8
+        },
+        "rd_mem": {
+          "offset": 13,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x00",
+          "value": 0
+        },
+        "wr_mem": {
+          "offset": 14,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x00",
+          "value": 0
+        },
+        "z_x": {
+          "offset": 15,
+          "size": 1,
+          "type": "u8",
+          "hex": "0x00",
+          "value": 0
+        },
+        "z_y": {
+          "offset": 16,
+          "size": 1,
+          "type": "u8",
+          "hex": "0xB1",
+          "value": 177
+        },
+        "m_requant": {
+          "offset": 17,
+          "size": 2,
+          "type": "u16 LE",
+          "hex": "0x005B",
+          "value": 91
+        }
+      }
+    }
+  ]
+}

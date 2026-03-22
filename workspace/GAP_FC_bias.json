@@ -1,0 +1,116 @@
+{
+  "rom_name": "GAP_FC_bias",
+  "spec": "ROM_v4.md §4.3",
+  "word_width_bits": 16,
+  "total_words": 14,
+  "num_layers": 1,
+  "layers": [
+    {
+      "layer_index": 0,
+      "name": "gap_fc",
+      "bias_base": 0,
+      "num_words": 14,
+      "C_out": 14,
+      "words": [
+        {
+          "word_addr": 0,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "00ca",
+          "int16_value": 202
+        },
+        {
+          "word_addr": 1,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "ff8d",
+          "int16_value": -115
+        },
+        {
+          "word_addr": 2,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "ff1f",
+          "int16_value": -225
+        },
+        {
+          "word_addr": 3,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "00ee",
+          "int16_value": 238
+        },
+        {
+          "word_addr": 4,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "0068",
+          "int16_value": 104
+        },
+        {
+          "word_addr": 5,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "007b",
+          "int16_value": 123
+        },
+        {
+          "word_addr": 6,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "fef9",
+          "int16_value": -263
+        },
+        {
+          "word_addr": 7,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "0146",
+          "int16_value": 326
+        },
+        {
+          "word_addr": 8,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "ffff",
+          "int16_value": -1
+        },
+        {
+          "word_addr": 9,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "fffa",
+          "int16_value": -6
+        },
+        {
+          "word_addr": 10,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "ffd0",
+          "int16_value": -48
+        },
+        {
+          "word_addr": 11,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "ffbc",
+          "int16_value": -68
+        },
+        {
+          "word_addr": 12,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "ff91",
+          "int16_value": -111
+        },
+        {
+          "word_addr": 13,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "014a",
+          "int16_value": 330
+        }
+      ]
+    }
+  ]
+}

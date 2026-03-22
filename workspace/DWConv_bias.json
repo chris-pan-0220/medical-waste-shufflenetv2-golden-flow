@@ -1,0 +1,1555 @@
+{
+  "rom_name": "DWConv_bias",
+  "spec": "ROM_v4.md §3.3",
+  "word_width_bits": 16,
+  "total_words": 208,
+  "num_layers": 10,
+  "layers": [
+    {
+      "layer_index": 0,
+      "name": "conv1.0",
+      "bias_base": 0,
+      "num_words": 16,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 0,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "0004",
+          "int16_value": 4
+        },
+        {
+          "word_addr": 1,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "dfc7",
+          "int16_value": -8249
+        },
+        {
+          "word_addr": 2,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "a158",
+          "int16_value": -24232
+        },
+        {
+          "word_addr": 3,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "5985",
+          "int16_value": 22917
+        },
+        {
+          "word_addr": 4,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "519d",
+          "int16_value": 20893
+        },
+        {
+          "word_addr": 5,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "c553",
+          "int16_value": -15021
+        },
+        {
+          "word_addr": 6,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "e4ab",
+          "int16_value": -6997
+        },
+        {
+          "word_addr": 7,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "649f",
+          "int16_value": 25759
+        },
+        {
+          "word_addr": 8,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "167a",
+          "int16_value": 5754
+        },
+        {
+          "word_addr": 9,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "5947",
+          "int16_value": 22855
+        },
+        {
+          "word_addr": 10,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "53e6",
+          "int16_value": 21478
+        },
+        {
+          "word_addr": 11,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "9ab8",
+          "int16_value": -25928
+        },
+        {
+          "word_addr": 12,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "5bb3",
+          "int16_value": 23475
+        },
+        {
+          "word_addr": 13,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "289a",
+          "int16_value": 10394
+        },
+        {
+          "word_addr": 14,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "a55c",
+          "int16_value": -23204
+        },
+        {
+          "word_addr": 15,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "724c",
+          "int16_value": 29260
+        }
+      ]
+    },
+    {
+      "layer_index": 1,
+      "name": "stages.0.0.branch1.0",
+      "bias_base": 16,
+      "num_words": 16,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 16,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "0687",
+          "int16_value": 1671
+        },
+        {
+          "word_addr": 17,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "f781",
+          "int16_value": -2175
+        },
+        {
+          "word_addr": 18,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "025c",
+          "int16_value": 604
+        },
+        {
+          "word_addr": 19,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "086e",
+          "int16_value": 2158
+        },
+        {
+          "word_addr": 20,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "f7be",
+          "int16_value": -2114
+        },
+        {
+          "word_addr": 21,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "06ed",
+          "int16_value": 1773
+        },
+        {
+          "word_addr": 22,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "f871",
+          "int16_value": -1935
+        },
+        {
+          "word_addr": 23,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "fbb0",
+          "int16_value": -1104
+        },
+        {
+          "word_addr": 24,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "07a4",
+          "int16_value": 1956
+        },
+        {
+          "word_addr": 25,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "00d0",
+          "int16_value": 208
+        },
+        {
+          "word_addr": 26,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "fa80",
+          "int16_value": -1408
+        },
+        {
+          "word_addr": 27,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "f665",
+          "int16_value": -2459
+        },
+        {
+          "word_addr": 28,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "f7dc",
+          "int16_value": -2084
+        },
+        {
+          "word_addr": 29,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "08da",
+          "int16_value": 2266
+        },
+        {
+          "word_addr": 30,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "02d6",
+          "int16_value": 726
+        },
+        {
+          "word_addr": 31,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "0539",
+          "int16_value": 1337
+        }
+      ]
+    },
+    {
+      "layer_index": 2,
+      "name": "stages.0.0.branch2.3",
+      "bias_base": 32,
+      "num_words": 12,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 32,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "0107",
+          "int16_value": 263
+        },
+        {
+          "word_addr": 33,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "faca",
+          "int16_value": -1334
+        },
+        {
+          "word_addr": 34,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "0041",
+          "int16_value": 65
+        },
+        {
+          "word_addr": 35,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "ffcf",
+          "int16_value": -49
+        },
+        {
+          "word_addr": 36,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "060c",
+          "int16_value": 1548
+        },
+        {
+          "word_addr": 37,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "03c3",
+          "int16_value": 963
+        },
+        {
+          "word_addr": 38,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "05fd",
+          "int16_value": 1533
+        },
+        {
+          "word_addr": 39,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "02db",
+          "int16_value": 731
+        },
+        {
+          "word_addr": 40,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "050e",
+          "int16_value": 1294
+        },
+        {
+          "word_addr": 41,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "fc4f",
+          "int16_value": -945
+        },
+        {
+          "word_addr": 42,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "035b",
+          "int16_value": 859
+        },
+        {
+          "word_addr": 43,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "ff09",
+          "int16_value": -247
+        }
+      ]
+    },
+    {
+      "layer_index": 3,
+      "name": "stages.0.1.branch2.3",
+      "bias_base": 44,
+      "num_words": 12,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 44,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "0692",
+          "int16_value": 1682
+        },
+        {
+          "word_addr": 45,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "00b8",
+          "int16_value": 184
+        },
+        {
+          "word_addr": 46,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "fa91",
+          "int16_value": -1391
+        },
+        {
+          "word_addr": 47,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "02b4",
+          "int16_value": 692
+        },
+        {
+          "word_addr": 48,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "0243",
+          "int16_value": 579
+        },
+        {
+          "word_addr": 49,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "0332",
+          "int16_value": 818
+        },
+        {
+          "word_addr": 50,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "0369",
+          "int16_value": 873
+        },
+        {
+          "word_addr": 51,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "ff61",
+          "int16_value": -159
+        },
+        {
+          "word_addr": 52,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "fbe3",
+          "int16_value": -1053
+        },
+        {
+          "word_addr": 53,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "050c",
+          "int16_value": 1292
+        },
+        {
+          "word_addr": 54,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "00cf",
+          "int16_value": 207
+        },
+        {
+          "word_addr": 55,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "0397",
+          "int16_value": 919
+        }
+      ]
+    },
+    {
+      "layer_index": 4,
+      "name": "stages.1.0.branch1.0",
+      "bias_base": 56,
+      "num_words": 24,
+      "C_out": 24,
+      "words": [
+        {
+          "word_addr": 56,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "0221",
+          "int16_value": 545
+        },
+        {
+          "word_addr": 57,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "f995",
+          "int16_value": -1643
+        },
+        {
+          "word_addr": 58,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "fe1a",
+          "int16_value": -486
+        },
+        {
+          "word_addr": 59,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "ff48",
+          "int16_value": -184
+        },
+        {
+          "word_addr": 60,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "03b7",
+          "int16_value": 951
+        },
+        {
+          "word_addr": 61,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "06c7",
+          "int16_value": 1735
+        },
+        {
+          "word_addr": 62,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "f8ce",
+          "int16_value": -1842
+        },
+        {
+          "word_addr": 63,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "f783",
+          "int16_value": -2173
+        },
+        {
+          "word_addr": 64,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "026f",
+          "int16_value": 623
+        },
+        {
+          "word_addr": 65,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "fb44",
+          "int16_value": -1212
+        },
+        {
+          "word_addr": 66,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "fbe1",
+          "int16_value": -1055
+        },
+        {
+          "word_addr": 67,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "fc43",
+          "int16_value": -957
+        },
+        {
+          "word_addr": 68,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "01ef",
+          "int16_value": 495
+        },
+        {
+          "word_addr": 69,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "fb43",
+          "int16_value": -1213
+        },
+        {
+          "word_addr": 70,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "fb66",
+          "int16_value": -1178
+        },
+        {
+          "word_addr": 71,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "f861",
+          "int16_value": -1951
+        },
+        {
+          "word_addr": 72,
+          "local_index": 16,
+          "c_out": 16,
+          "hex": "f721",
+          "int16_value": -2271
+        },
+        {
+          "word_addr": 73,
+          "local_index": 17,
+          "c_out": 17,
+          "hex": "0500",
+          "int16_value": 1280
+        },
+        {
+          "word_addr": 74,
+          "local_index": 18,
+          "c_out": 18,
+          "hex": "0719",
+          "int16_value": 1817
+        },
+        {
+          "word_addr": 75,
+          "local_index": 19,
+          "c_out": 19,
+          "hex": "fb09",
+          "int16_value": -1271
+        },
+        {
+          "word_addr": 76,
+          "local_index": 20,
+          "c_out": 20,
+          "hex": "06b8",
+          "int16_value": 1720
+        },
+        {
+          "word_addr": 77,
+          "local_index": 21,
+          "c_out": 21,
+          "hex": "03ba",
+          "int16_value": 954
+        },
+        {
+          "word_addr": 78,
+          "local_index": 22,
+          "c_out": 22,
+          "hex": "007e",
+          "int16_value": 126
+        },
+        {
+          "word_addr": 79,
+          "local_index": 23,
+          "c_out": 23,
+          "hex": "fb58",
+          "int16_value": -1192
+        }
+      ]
+    },
+    {
+      "layer_index": 5,
+      "name": "stages.1.0.branch2.3",
+      "bias_base": 80,
+      "num_words": 16,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 80,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "fa5a",
+          "int16_value": -1446
+        },
+        {
+          "word_addr": 81,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "f905",
+          "int16_value": -1787
+        },
+        {
+          "word_addr": 82,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "fb78",
+          "int16_value": -1160
+        },
+        {
+          "word_addr": 83,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "034a",
+          "int16_value": 842
+        },
+        {
+          "word_addr": 84,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "fb49",
+          "int16_value": -1207
+        },
+        {
+          "word_addr": 85,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "f9a3",
+          "int16_value": -1629
+        },
+        {
+          "word_addr": 86,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "0306",
+          "int16_value": 774
+        },
+        {
+          "word_addr": 87,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "0787",
+          "int16_value": 1927
+        },
+        {
+          "word_addr": 88,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "0481",
+          "int16_value": 1153
+        },
+        {
+          "word_addr": 89,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "037e",
+          "int16_value": 894
+        },
+        {
+          "word_addr": 90,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "fdc0",
+          "int16_value": -576
+        },
+        {
+          "word_addr": 91,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "fff3",
+          "int16_value": -13
+        },
+        {
+          "word_addr": 92,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "fc1a",
+          "int16_value": -998
+        },
+        {
+          "word_addr": 93,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "fcd9",
+          "int16_value": -807
+        },
+        {
+          "word_addr": 94,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "fc1c",
+          "int16_value": -996
+        },
+        {
+          "word_addr": 95,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "0157",
+          "int16_value": 343
+        }
+      ]
+    },
+    {
+      "layer_index": 6,
+      "name": "stages.1.1.branch2.3",
+      "bias_base": 96,
+      "num_words": 16,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 96,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "f589",
+          "int16_value": -2679
+        },
+        {
+          "word_addr": 97,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "0ae8",
+          "int16_value": 2792
+        },
+        {
+          "word_addr": 98,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "0939",
+          "int16_value": 2361
+        },
+        {
+          "word_addr": 99,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "0604",
+          "int16_value": 1540
+        },
+        {
+          "word_addr": 100,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "f81c",
+          "int16_value": -2020
+        },
+        {
+          "word_addr": 101,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "0777",
+          "int16_value": 1911
+        },
+        {
+          "word_addr": 102,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "0a42",
+          "int16_value": 2626
+        },
+        {
+          "word_addr": 103,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "096a",
+          "int16_value": 2410
+        },
+        {
+          "word_addr": 104,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "0917",
+          "int16_value": 2327
+        },
+        {
+          "word_addr": 105,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "0b92",
+          "int16_value": 2962
+        },
+        {
+          "word_addr": 106,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "f7bc",
+          "int16_value": -2116
+        },
+        {
+          "word_addr": 107,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "065b",
+          "int16_value": 1627
+        },
+        {
+          "word_addr": 108,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "0a36",
+          "int16_value": 2614
+        },
+        {
+          "word_addr": 109,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "ffb5",
+          "int16_value": -75
+        },
+        {
+          "word_addr": 110,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "f2e6",
+          "int16_value": -3354
+        },
+        {
+          "word_addr": 111,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "08e3",
+          "int16_value": 2275
+        }
+      ]
+    },
+    {
+      "layer_index": 7,
+      "name": "stages.2.0.branch1.0",
+      "bias_base": 112,
+      "num_words": 32,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 112,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "f762",
+          "int16_value": -2206
+        },
+        {
+          "word_addr": 113,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "0985",
+          "int16_value": 2437
+        },
+        {
+          "word_addr": 114,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "08dc",
+          "int16_value": 2268
+        },
+        {
+          "word_addr": 115,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "0caa",
+          "int16_value": 3242
+        },
+        {
+          "word_addr": 116,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "fd56",
+          "int16_value": -682
+        },
+        {
+          "word_addr": 117,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "0a5f",
+          "int16_value": 2655
+        },
+        {
+          "word_addr": 118,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "0cbb",
+          "int16_value": 3259
+        },
+        {
+          "word_addr": 119,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "f6f4",
+          "int16_value": -2316
+        },
+        {
+          "word_addr": 120,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "f499",
+          "int16_value": -2919
+        },
+        {
+          "word_addr": 121,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "f506",
+          "int16_value": -2810
+        },
+        {
+          "word_addr": 122,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "0b13",
+          "int16_value": 2835
+        },
+        {
+          "word_addr": 123,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "0bc0",
+          "int16_value": 3008
+        },
+        {
+          "word_addr": 124,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "f775",
+          "int16_value": -2187
+        },
+        {
+          "word_addr": 125,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "f7bf",
+          "int16_value": -2113
+        },
+        {
+          "word_addr": 126,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "f79f",
+          "int16_value": -2145
+        },
+        {
+          "word_addr": 127,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "0dc5",
+          "int16_value": 3525
+        },
+        {
+          "word_addr": 128,
+          "local_index": 16,
+          "c_out": 16,
+          "hex": "fb7f",
+          "int16_value": -1153
+        },
+        {
+          "word_addr": 129,
+          "local_index": 17,
+          "c_out": 17,
+          "hex": "0e68",
+          "int16_value": 3688
+        },
+        {
+          "word_addr": 130,
+          "local_index": 18,
+          "c_out": 18,
+          "hex": "0791",
+          "int16_value": 1937
+        },
+        {
+          "word_addr": 131,
+          "local_index": 19,
+          "c_out": 19,
+          "hex": "0cc7",
+          "int16_value": 3271
+        },
+        {
+          "word_addr": 132,
+          "local_index": 20,
+          "c_out": 20,
+          "hex": "f544",
+          "int16_value": -2748
+        },
+        {
+          "word_addr": 133,
+          "local_index": 21,
+          "c_out": 21,
+          "hex": "f593",
+          "int16_value": -2669
+        },
+        {
+          "word_addr": 134,
+          "local_index": 22,
+          "c_out": 22,
+          "hex": "0ab0",
+          "int16_value": 2736
+        },
+        {
+          "word_addr": 135,
+          "local_index": 23,
+          "c_out": 23,
+          "hex": "f63e",
+          "int16_value": -2498
+        },
+        {
+          "word_addr": 136,
+          "local_index": 24,
+          "c_out": 24,
+          "hex": "0fee",
+          "int16_value": 4078
+        },
+        {
+          "word_addr": 137,
+          "local_index": 25,
+          "c_out": 25,
+          "hex": "f678",
+          "int16_value": -2440
+        },
+        {
+          "word_addr": 138,
+          "local_index": 26,
+          "c_out": 26,
+          "hex": "fced",
+          "int16_value": -787
+        },
+        {
+          "word_addr": 139,
+          "local_index": 27,
+          "c_out": 27,
+          "hex": "0b07",
+          "int16_value": 2823
+        },
+        {
+          "word_addr": 140,
+          "local_index": 28,
+          "c_out": 28,
+          "hex": "10e8",
+          "int16_value": 4328
+        },
+        {
+          "word_addr": 141,
+          "local_index": 29,
+          "c_out": 29,
+          "hex": "f4be",
+          "int16_value": -2882
+        },
+        {
+          "word_addr": 142,
+          "local_index": 30,
+          "c_out": 30,
+          "hex": "f411",
+          "int16_value": -3055
+        },
+        {
+          "word_addr": 143,
+          "local_index": 31,
+          "c_out": 31,
+          "hex": "f84a",
+          "int16_value": -1974
+        }
+      ]
+    },
+    {
+      "layer_index": 8,
+      "name": "stages.2.0.branch2.3",
+      "bias_base": 144,
+      "num_words": 32,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 144,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "03a9",
+          "int16_value": 937
+        },
+        {
+          "word_addr": 145,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "037c",
+          "int16_value": 892
+        },
+        {
+          "word_addr": 146,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "030e",
+          "int16_value": 782
+        },
+        {
+          "word_addr": 147,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "fbc5",
+          "int16_value": -1083
+        },
+        {
+          "word_addr": 148,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "04f1",
+          "int16_value": 1265
+        },
+        {
+          "word_addr": 149,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "0402",
+          "int16_value": 1026
+        },
+        {
+          "word_addr": 150,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "03ae",
+          "int16_value": 942
+        },
+        {
+          "word_addr": 151,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "fd03",
+          "int16_value": -765
+        },
+        {
+          "word_addr": 152,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "fd99",
+          "int16_value": -615
+        },
+        {
+          "word_addr": 153,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "fcb0",
+          "int16_value": -848
+        },
+        {
+          "word_addr": 154,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "fbdb",
+          "int16_value": -1061
+        },
+        {
+          "word_addr": 155,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "036b",
+          "int16_value": 875
+        },
+        {
+          "word_addr": 156,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "ff58",
+          "int16_value": -168
+        },
+        {
+          "word_addr": 157,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "fbc8",
+          "int16_value": -1080
+        },
+        {
+          "word_addr": 158,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "fcf1",
+          "int16_value": -783
+        },
+        {
+          "word_addr": 159,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "0379",
+          "int16_value": 889
+        },
+        {
+          "word_addr": 160,
+          "local_index": 16,
+          "c_out": 16,
+          "hex": "01e5",
+          "int16_value": 485
+        },
+        {
+          "word_addr": 161,
+          "local_index": 17,
+          "c_out": 17,
+          "hex": "03d6",
+          "int16_value": 982
+        },
+        {
+          "word_addr": 162,
+          "local_index": 18,
+          "c_out": 18,
+          "hex": "0249",
+          "int16_value": 585
+        },
+        {
+          "word_addr": 163,
+          "local_index": 19,
+          "c_out": 19,
+          "hex": "fdc0",
+          "int16_value": -576
+        },
+        {
+          "word_addr": 164,
+          "local_index": 20,
+          "c_out": 20,
+          "hex": "fc72",
+          "int16_value": -910
+        },
+        {
+          "word_addr": 165,
+          "local_index": 21,
+          "c_out": 21,
+          "hex": "fbcb",
+          "int16_value": -1077
+        },
+        {
+          "word_addr": 166,
+          "local_index": 22,
+          "c_out": 22,
+          "hex": "03cb",
+          "int16_value": 971
+        },
+        {
+          "word_addr": 167,
+          "local_index": 23,
+          "c_out": 23,
+          "hex": "02c7",
+          "int16_value": 711
+        },
+        {
+          "word_addr": 168,
+          "local_index": 24,
+          "c_out": 24,
+          "hex": "034f",
+          "int16_value": 847
+        },
+        {
+          "word_addr": 169,
+          "local_index": 25,
+          "c_out": 25,
+          "hex": "044b",
+          "int16_value": 1099
+        },
+        {
+          "word_addr": 170,
+          "local_index": 26,
+          "c_out": 26,
+          "hex": "01dd",
+          "int16_value": 477
+        },
+        {
+          "word_addr": 171,
+          "local_index": 27,
+          "c_out": 27,
+          "hex": "02ca",
+          "int16_value": 714
+        },
+        {
+          "word_addr": 172,
+          "local_index": 28,
+          "c_out": 28,
+          "hex": "02ad",
+          "int16_value": 685
+        },
+        {
+          "word_addr": 173,
+          "local_index": 29,
+          "c_out": 29,
+          "hex": "ff04",
+          "int16_value": -252
+        },
+        {
+          "word_addr": 174,
+          "local_index": 30,
+          "c_out": 30,
+          "hex": "04ab",
+          "int16_value": 1195
+        },
+        {
+          "word_addr": 175,
+          "local_index": 31,
+          "c_out": 31,
+          "hex": "02fa",
+          "int16_value": 762
+        }
+      ]
+    },
+    {
+      "layer_index": 9,
+      "name": "stages.2.1.branch2.3",
+      "bias_base": 176,
+      "num_words": 32,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 176,
+          "local_index": 0,
+          "c_out": 0,
+          "hex": "fdd8",
+          "int16_value": -552
+        },
+        {
+          "word_addr": 177,
+          "local_index": 1,
+          "c_out": 1,
+          "hex": "fd41",
+          "int16_value": -703
+        },
+        {
+          "word_addr": 178,
+          "local_index": 2,
+          "c_out": 2,
+          "hex": "02c1",
+          "int16_value": 705
+        },
+        {
+          "word_addr": 179,
+          "local_index": 3,
+          "c_out": 3,
+          "hex": "fc30",
+          "int16_value": -976
+        },
+        {
+          "word_addr": 180,
+          "local_index": 4,
+          "c_out": 4,
+          "hex": "020d",
+          "int16_value": 525
+        },
+        {
+          "word_addr": 181,
+          "local_index": 5,
+          "c_out": 5,
+          "hex": "fd5e",
+          "int16_value": -674
+        },
+        {
+          "word_addr": 182,
+          "local_index": 6,
+          "c_out": 6,
+          "hex": "fd4f",
+          "int16_value": -689
+        },
+        {
+          "word_addr": 183,
+          "local_index": 7,
+          "c_out": 7,
+          "hex": "fd80",
+          "int16_value": -640
+        },
+        {
+          "word_addr": 184,
+          "local_index": 8,
+          "c_out": 8,
+          "hex": "fc76",
+          "int16_value": -906
+        },
+        {
+          "word_addr": 185,
+          "local_index": 9,
+          "c_out": 9,
+          "hex": "02fe",
+          "int16_value": 766
+        },
+        {
+          "word_addr": 186,
+          "local_index": 10,
+          "c_out": 10,
+          "hex": "fda4",
+          "int16_value": -604
+        },
+        {
+          "word_addr": 187,
+          "local_index": 11,
+          "c_out": 11,
+          "hex": "01fb",
+          "int16_value": 507
+        },
+        {
+          "word_addr": 188,
+          "local_index": 12,
+          "c_out": 12,
+          "hex": "fd3a",
+          "int16_value": -710
+        },
+        {
+          "word_addr": 189,
+          "local_index": 13,
+          "c_out": 13,
+          "hex": "02fe",
+          "int16_value": 766
+        },
+        {
+          "word_addr": 190,
+          "local_index": 14,
+          "c_out": 14,
+          "hex": "0389",
+          "int16_value": 905
+        },
+        {
+          "word_addr": 191,
+          "local_index": 15,
+          "c_out": 15,
+          "hex": "038d",
+          "int16_value": 909
+        },
+        {
+          "word_addr": 192,
+          "local_index": 16,
+          "c_out": 16,
+          "hex": "0225",
+          "int16_value": 549
+        },
+        {
+          "word_addr": 193,
+          "local_index": 17,
+          "c_out": 17,
+          "hex": "fe54",
+          "int16_value": -428
+        },
+        {
+          "word_addr": 194,
+          "local_index": 18,
+          "c_out": 18,
+          "hex": "0200",
+          "int16_value": 512
+        },
+        {
+          "word_addr": 195,
+          "local_index": 19,
+          "c_out": 19,
+          "hex": "0384",
+          "int16_value": 900
+        },
+        {
+          "word_addr": 196,
+          "local_index": 20,
+          "c_out": 20,
+          "hex": "fcbc",
+          "int16_value": -836
+        },
+        {
+          "word_addr": 197,
+          "local_index": 21,
+          "c_out": 21,
+          "hex": "fe33",
+          "int16_value": -461
+        },
+        {
+          "word_addr": 198,
+          "local_index": 22,
+          "c_out": 22,
+          "hex": "02c0",
+          "int16_value": 704
+        },
+        {
+          "word_addr": 199,
+          "local_index": 23,
+          "c_out": 23,
+          "hex": "ff92",
+          "int16_value": -110
+        },
+        {
+          "word_addr": 200,
+          "local_index": 24,
+          "c_out": 24,
+          "hex": "03c6",
+          "int16_value": 966
+        },
+        {
+          "word_addr": 201,
+          "local_index": 25,
+          "c_out": 25,
+          "hex": "02ed",
+          "int16_value": 749
+        },
+        {
+          "word_addr": 202,
+          "local_index": 26,
+          "c_out": 26,
+          "hex": "fc0e",
+          "int16_value": -1010
+        },
+        {
+          "word_addr": 203,
+          "local_index": 27,
+          "c_out": 27,
+          "hex": "02b3",
+          "int16_value": 691
+        },
+        {
+          "word_addr": 204,
+          "local_index": 28,
+          "c_out": 28,
+          "hex": "021f",
+          "int16_value": 543
+        },
+        {
+          "word_addr": 205,
+          "local_index": 29,
+          "c_out": 29,
+          "hex": "fdfd",
+          "int16_value": -515
+        },
+        {
+          "word_addr": 206,
+          "local_index": 30,
+          "c_out": 30,
+          "hex": "fccb",
+          "int16_value": -821
+        },
+        {
+          "word_addr": 207,
+          "local_index": 31,
+          "c_out": 31,
+          "hex": "02ec",
+          "int16_value": 748
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# verify_romv4 configuration
+# 所有路徑皆相對於此 TOML 檔所在的目錄 (即 in-use/workspace/)
+
+[paths]
+workdir   = "."                                # 包含模型定義 & INT8 權重的目錄
+data_root = "../datasets/selfbuilt_dataset_integrate"   # ImageFolder 資料集路徑
+
+[rom_v4]
+pw_header    = "PWConv_header.coe"
+pw_weight    = "PWConv_weight.coe"
+pw_bias      = "PWConv_bias.coe"
+dw_header    = "DWConv_header.coe"
+dw_weight    = "DWConv_weight.coe"
+dw_bias      = "DWConv_bias.coe"
+gapfc_header = "GAP_FC_header.coe"
+gapfc_weight = "GAP_FC_weight.coe"
+gapfc_bias   = "GAP_FC_bias.coe"
+
+[eval]
+batch_size  = 64
+img_size    = 128
+seed        = 0
+num_workers = 4
+# max_batches = 10       # 取消註解以限制批次數 (debug 用)

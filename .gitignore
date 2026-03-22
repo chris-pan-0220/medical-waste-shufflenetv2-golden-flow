@@ -1,0 +1,6 @@
+datasets/
+workspace/config.toml
+workspace/out.csv
+workspace/val_rtl_scripts/*.dat
+__pycache__/
+workspace/__pycache__/

@@ -1,0 +1,1045 @@
+{
+  "rom_name": "PWConv_bias",
+  "spec": "ROM_v4.md §2.3",
+  "word_width_bits": 64,
+  "total_words": 75,
+  "P": 4,
+  "num_layers": 15,
+  "layers": [
+    {
+      "layer_index": 0,
+      "name": "stages.0.0.branch1.2",
+      "bias_base": 0,
+      "num_words": 3,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 0,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "fe8601b300c60196",
+          "int16_values": [
+            406,
+            198,
+            435,
+            -378
+          ]
+        },
+        {
+          "word_addr": 1,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "fe99fecbff41ff99",
+          "int16_values": [
+            -103,
+            -191,
+            -309,
+            -359
+          ]
+        },
+        {
+          "word_addr": 2,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "ff7202c90008004c",
+          "int16_values": [
+            76,
+            8,
+            713,
+            -142
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 1,
+      "name": "stages.0.0.branch2.0",
+      "bias_base": 3,
+      "num_words": 3,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 3,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "f6a206d708ba0529",
+          "int16_values": [
+            1321,
+            2234,
+            1751,
+            -2398
+          ]
+        },
+        {
+          "word_addr": 4,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "f435fb7dfea91343",
+          "int16_values": [
+            4931,
+            -343,
+            -1155,
+            -3019
+          ]
+        },
+        {
+          "word_addr": 5,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "0b7715a7f9cb0613",
+          "int16_values": [
+            1555,
+            -1589,
+            5543,
+            2935
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 2,
+      "name": "stages.0.0.branch2.5",
+      "bias_base": 6,
+      "num_words": 3,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 6,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "ff96ff06ffa70021",
+          "int16_values": [
+            33,
+            -89,
+            -250,
+            -106
+          ]
+        },
+        {
+          "word_addr": 7,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "00b0ffc40074ffee",
+          "int16_values": [
+            -18,
+            116,
+            -60,
+            176
+          ]
+        },
+        {
+          "word_addr": 8,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "ff2900580078ffa1",
+          "int16_values": [
+            -95,
+            120,
+            88,
+            -215
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 3,
+      "name": "stages.0.1.branch2.0",
+      "bias_base": 9,
+      "num_words": 3,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 9,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "07e1026ded0106ca",
+          "int16_values": [
+            1738,
+            -4863,
+            621,
+            2017
+          ]
+        },
+        {
+          "word_addr": 10,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "0a32ea91f9ef0216",
+          "int16_values": [
+            534,
+            -1553,
+            -5487,
+            2610
+          ]
+        },
+        {
+          "word_addr": 11,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "07080202095cfeb3",
+          "int16_values": [
+            -333,
+            2396,
+            514,
+            1800
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 4,
+      "name": "stages.0.1.branch2.5",
+      "bias_base": 12,
+      "num_words": 3,
+      "C_out": 12,
+      "words": [
+        {
+          "word_addr": 12,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "ffeeff51011e01cc",
+          "int16_values": [
+            460,
+            286,
+            -175,
+            -18
+          ]
+        },
+        {
+          "word_addr": 13,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "00b0fe6cff4bff2a",
+          "int16_values": [
+            -214,
+            -181,
+            -404,
+            176
+          ]
+        },
+        {
+          "word_addr": 14,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "ffc7ff7b006bff9d",
+          "int16_values": [
+            -99,
+            107,
+            -133,
+            -57
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 5,
+      "name": "stages.1.0.branch1.2",
+      "bias_base": 15,
+      "num_words": 4,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 15,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "ffedfc7dfcb2fe89",
+          "int16_values": [
+            -375,
+            -846,
+            -899,
+            -19
+          ]
+        },
+        {
+          "word_addr": 16,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "0376ff2fff4e0107",
+          "int16_values": [
+            263,
+            -178,
+            -209,
+            886
+          ]
+        },
+        {
+          "word_addr": 17,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "ff40fe2100d00064",
+          "int16_values": [
+            100,
+            208,
+            -479,
+            -192
+          ]
+        },
+        {
+          "word_addr": 18,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "001e0097fe8ffe58",
+          "int16_values": [
+            -424,
+            -369,
+            151,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 6,
+      "name": "stages.1.0.branch2.0",
+      "bias_base": 19,
+      "num_words": 4,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 19,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "0861098b12ff0a05",
+          "int16_values": [
+            2565,
+            4863,
+            2443,
+            2145
+          ]
+        },
+        {
+          "word_addr": 20,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "1325ed4e0ea50d7f",
+          "int16_values": [
+            3455,
+            3749,
+            -4786,
+            4901
+          ]
+        },
+        {
+          "word_addr": 21,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "171ffbdbf88f0e15",
+          "int16_values": [
+            3605,
+            -1905,
+            -1061,
+            5919
+          ]
+        },
+        {
+          "word_addr": 22,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "011ff72ff62c0f51",
+          "int16_values": [
+            3921,
+            -2516,
+            -2257,
+            287
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 7,
+      "name": "stages.1.0.branch2.5",
+      "bias_base": 23,
+      "num_words": 4,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 23,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "ff66fe35ffeeff29",
+          "int16_values": [
+            -215,
+            -18,
+            -459,
+            -154
+          ]
+        },
+        {
+          "word_addr": 24,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "ff71ff8f0198fed2",
+          "int16_values": [
+            -302,
+            408,
+            -113,
+            -143
+          ]
+        },
+        {
+          "word_addr": 25,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "001cffbdff09fe26",
+          "int16_values": [
+            -474,
+            -247,
+            -67,
+            28
+          ]
+        },
+        {
+          "word_addr": 26,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "002a008202aeff45",
+          "int16_values": [
+            -187,
+            686,
+            130,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 8,
+      "name": "stages.1.1.branch2.0",
+      "bias_base": 27,
+      "num_words": 4,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 27,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "f6de07a00481fefe",
+          "int16_values": [
+            -258,
+            1153,
+            1952,
+            -2338
+          ]
+        },
+        {
+          "word_addr": 28,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "0a6e06990b3cf694",
+          "int16_values": [
+            -2412,
+            2876,
+            1689,
+            2670
+          ]
+        },
+        {
+          "word_addr": 29,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "043a003f0f57f87a",
+          "int16_values": [
+            -1926,
+            3927,
+            63,
+            1082
+          ]
+        },
+        {
+          "word_addr": 30,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "ff33006ffa70030c",
+          "int16_values": [
+            780,
+            -1424,
+            111,
+            -205
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 9,
+      "name": "stages.1.1.branch2.5",
+      "bias_base": 31,
+      "num_words": 4,
+      "C_out": 16,
+      "words": [
+        {
+          "word_addr": 31,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "fd2a00bf0307ffd9",
+          "int16_values": [
+            -39,
+            775,
+            191,
+            -726
+          ]
+        },
+        {
+          "word_addr": 32,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "fe63fd73023e00b4",
+          "int16_values": [
+            180,
+            574,
+            -653,
+            -413
+          ]
+        },
+        {
+          "word_addr": 33,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "fe1afe0affff0167",
+          "int16_values": [
+            359,
+            -1,
+            -502,
+            -486
+          ]
+        },
+        {
+          "word_addr": 34,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "fe5a02bffde6fdff",
+          "int16_values": [
+            -513,
+            -538,
+            703,
+            -422
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 10,
+      "name": "stages.2.0.branch1.2",
+      "bias_base": 35,
+      "num_words": 8,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 35,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "010901b702be02c9",
+          "int16_values": [
+            713,
+            702,
+            439,
+            265
+          ]
+        },
+        {
+          "word_addr": 36,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "016c02de00de038a",
+          "int16_values": [
+            906,
+            222,
+            734,
+            364
+          ]
+        },
+        {
+          "word_addr": 37,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "ffccffdc00d20172",
+          "int16_values": [
+            370,
+            210,
+            -36,
+            -52
+          ]
+        },
+        {
+          "word_addr": 38,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "009701b4001e02b7",
+          "int16_values": [
+            695,
+            30,
+            436,
+            151
+          ]
+        },
+        {
+          "word_addr": 39,
+          "local_index": 4,
+          "c_out_group": 4,
+          "hex": "0028ff30011f0109",
+          "int16_values": [
+            265,
+            287,
+            -208,
+            40
+          ]
+        },
+        {
+          "word_addr": 40,
+          "local_index": 5,
+          "c_out_group": 5,
+          "hex": "0012ff28fe4cfff1",
+          "int16_values": [
+            -15,
+            -436,
+            -216,
+            18
+          ]
+        },
+        {
+          "word_addr": 41,
+          "local_index": 6,
+          "c_out_group": 6,
+          "hex": "0002fe53ff36ff20",
+          "int16_values": [
+            -224,
+            -202,
+            -429,
+            2
+          ]
+        },
+        {
+          "word_addr": 42,
+          "local_index": 7,
+          "c_out_group": 7,
+          "hex": "ff37ff7fff7f00c2",
+          "int16_values": [
+            194,
+            -129,
+            -129,
+            -201
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 11,
+      "name": "stages.2.0.branch2.0",
+      "bias_base": 43,
+      "num_words": 8,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 43,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "158cf8f0ebb1f9be",
+          "int16_values": [
+            -1602,
+            -5199,
+            -1808,
+            5516
+          ]
+        },
+        {
+          "word_addr": 44,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "f652f3530f56049a",
+          "int16_values": [
+            1178,
+            3926,
+            -3245,
+            -2478
+          ]
+        },
+        {
+          "word_addr": 45,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "115d039d00bc1010",
+          "int16_values": [
+            4112,
+            188,
+            925,
+            4445
+          ]
+        },
+        {
+          "word_addr": 46,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "0345f5611825f45a",
+          "int16_values": [
+            -2982,
+            6181,
+            -2719,
+            837
+          ]
+        },
+        {
+          "word_addr": 47,
+          "local_index": 4,
+          "c_out_group": 4,
+          "hex": "f29aeeed0cf0fb30",
+          "int16_values": [
+            -1232,
+            3312,
+            -4371,
+            -3430
+          ]
+        },
+        {
+          "word_addr": 48,
+          "local_index": 5,
+          "c_out_group": 5,
+          "hex": "eff904160dd7f7da",
+          "int16_values": [
+            -2086,
+            3543,
+            1046,
+            -4103
+          ]
+        },
+        {
+          "word_addr": 49,
+          "local_index": 6,
+          "c_out_group": 6,
+          "hex": "f85ae72e090e14de",
+          "int16_values": [
+            5342,
+            2318,
+            -6354,
+            -1958
+          ]
+        },
+        {
+          "word_addr": 50,
+          "local_index": 7,
+          "c_out_group": 7,
+          "hex": "0df50d25fb22fab8",
+          "int16_values": [
+            -1352,
+            -1246,
+            3365,
+            3573
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 12,
+      "name": "stages.2.0.branch2.5",
+      "bias_base": 51,
+      "num_words": 8,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 51,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "023801ff01b90304",
+          "int16_values": [
+            772,
+            441,
+            511,
+            568
+          ]
+        },
+        {
+          "word_addr": 52,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "02be014c031d0188",
+          "int16_values": [
+            392,
+            797,
+            332,
+            702
+          ]
+        },
+        {
+          "word_addr": 53,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "034f023d02ce011f",
+          "int16_values": [
+            287,
+            718,
+            573,
+            847
+          ]
+        },
+        {
+          "word_addr": 54,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "0202013d036200eb",
+          "int16_values": [
+            235,
+            866,
+            317,
+            514
+          ]
+        },
+        {
+          "word_addr": 55,
+          "local_index": 4,
+          "c_out_group": 4,
+          "hex": "ff6f016efdd6ffcb",
+          "int16_values": [
+            -53,
+            -554,
+            366,
+            -145
+          ]
+        },
+        {
+          "word_addr": 56,
+          "local_index": 5,
+          "c_out_group": 5,
+          "hex": "011eff6b005e00a7",
+          "int16_values": [
+            167,
+            94,
+            -149,
+            286
+          ]
+        },
+        {
+          "word_addr": 57,
+          "local_index": 6,
+          "c_out_group": 6,
+          "hex": "ffc600cfff7fffc5",
+          "int16_values": [
+            -59,
+            -129,
+            207,
+            -58
+          ]
+        },
+        {
+          "word_addr": 58,
+          "local_index": 7,
+          "c_out_group": 7,
+          "hex": "00dc00a0fffb00a5",
+          "int16_values": [
+            165,
+            -5,
+            160,
+            220
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 13,
+      "name": "stages.2.1.branch2.0",
+      "bias_base": 59,
+      "num_words": 8,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 59,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "14f700570ded0292",
+          "int16_values": [
+            658,
+            3565,
+            87,
+            5367
+          ]
+        },
+        {
+          "word_addr": 60,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "fecc04bef2600346",
+          "int16_values": [
+            838,
+            -3488,
+            1214,
+            -308
+          ]
+        },
+        {
+          "word_addr": 61,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "fb48fc56fd670939",
+          "int16_values": [
+            2361,
+            -665,
+            -938,
+            -1208
+          ]
+        },
+        {
+          "word_addr": 62,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "0d5312270bd50635",
+          "int16_values": [
+            1589,
+            3029,
+            4647,
+            3411
+          ]
+        },
+        {
+          "word_addr": 63,
+          "local_index": 4,
+          "c_out_group": 4,
+          "hex": "12eefd65fb6a0288",
+          "int16_values": [
+            648,
+            -1174,
+            -667,
+            4846
+          ]
+        },
+        {
+          "word_addr": 64,
+          "local_index": 5,
+          "c_out_group": 5,
+          "hex": "09350679027a0534",
+          "int16_values": [
+            1332,
+            634,
+            1657,
+            2357
+          ]
+        },
+        {
+          "word_addr": 65,
+          "local_index": 6,
+          "c_out_group": 6,
+          "hex": "088c05db10340dbd",
+          "int16_values": [
+            3517,
+            4148,
+            1499,
+            2188
+          ]
+        },
+        {
+          "word_addr": 66,
+          "local_index": 7,
+          "c_out_group": 7,
+          "hex": "0ba2f9e4f9f008be",
+          "int16_values": [
+            2238,
+            -1552,
+            -1564,
+            2978
+          ]
+        }
+      ]
+    },
+    {
+      "layer_index": 14,
+      "name": "stages.2.1.branch2.5",
+      "bias_base": 67,
+      "num_words": 8,
+      "C_out": 32,
+      "words": [
+        {
+          "word_addr": 67,
+          "local_index": 0,
+          "c_out_group": 0,
+          "hex": "030201740368008b",
+          "int16_values": [
+            139,
+            872,
+            372,
+            770
+          ]
+        },
+        {
+          "word_addr": 68,
+          "local_index": 1,
+          "c_out_group": 1,
+          "hex": "017100cf029401c8",
+          "int16_values": [
+            456,
+            660,
+            207,
+            369
+          ]
+        },
+        {
+          "word_addr": 69,
+          "local_index": 2,
+          "c_out_group": 2,
+          "hex": "02c8005002770256",
+          "int16_values": [
+            598,
+            631,
+            80,
+            712
+          ]
+        },
+        {
+          "word_addr": 70,
+          "local_index": 3,
+          "c_out_group": 3,
+          "hex": "0080030103af0123",
+          "int16_values": [
+            291,
+            943,
+            769,
+            128
+          ]
+        },
+        {
+          "word_addr": 71,
+          "local_index": 4,
+          "c_out_group": 4,
+          "hex": "02590224019000c0",
+          "int16_values": [
+            192,
+            400,
+            548,
+            601
+          ]
+        },
+        {
+          "word_addr": 72,
+          "local_index": 5,
+          "c_out_group": 5,
+          "hex": "01a302b402dc038f",
+          "int16_values": [
+            911,
+            732,
+            692,
+            419
+          ]
+        },
+        {
+          "word_addr": 73,
+          "local_index": 6,
+          "c_out_group": 6,
+          "hex": "0136035203ab0186",
+          "int16_values": [
+            390,
+            939,
+            850,
+            310
+          ]
+        },
+        {
+          "word_addr": 74,
+          "local_index": 7,
+          "c_out_group": 7,
+          "hex": "01c2032a01890291",
+          "int16_values": [
+            657,
+            393,
+            810,
+            450
+          ]
+        }
+      ]
+    }
+  ]
+}
